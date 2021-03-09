@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <title>Smart it</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="logoContainer">
+                <a href="index.html"
+                    ><img src="public/smartSoloLogo.jpg" alt="logo"
+                /></a>
+            </div>
+            <div class="navbar">
+                <a href="services.html"><p>Servizi</p></a>
+                <a href="price.html"><p>Preventivi</p></a>
+                <a href="about.html"><p>Chi siamo</p></a>
+                <a href="contacts.html"><p>Contatti</p></a>
+            </div>
+        </header>
+        <p class="path">Home > <span class="green">Preventivo</span></p>
+        <div class="serviceContainer">
+            <p class="ourContact">Richiedi un preventivo</p>
+            <p class="ourParagContacts">
+                Ci occupiamo di tutte le operazioni indispensabili per vivere in
+                un ambiente pulito e confortevole. Dai servizi di pulizia alla
+                cura del verde, dalla manutenzione degli impianti alla
+                logistica, fino alla sicurezza e all’accoglienza.
+            </p>
+            <p class="contactUss">
+                Compila il form e verrai presto contattato da un nostro
+                operatore.
+            </p>
+            <div class="bigContainer">
+                <div class="leftContainer">
+                    <form class="form" action="" method="post">
+                        <input
+                            class="input"
+                            type="text"
+                            name="name"
+                            placeholder="Nome"
+                            required
+                        />
+                        <input
+                            class="input"
+                            type="text"
+                            name="email"
+                            placeholder="Email"
+                            required
+                        />
+                        <input
+                            class="input"
+                            type="text"
+                            name="subject"
+                            placeholder="Oggetto"
+                            required
+                        />
+                        <textarea
+                            placeholder="Messaggio"
+                            class="textArea"
+                            name="text"
+                            id="text"
+                        ></textarea>
+                        <div class="checkCont">
+                            <input
+                                class="check"
+                                type="checkbox"
+                                name="accetto"
+                                id="accetto"
+                            />
+                            <label class="label" for="accetto"
+                                >Autorizzo al trattamento dei miei dati
+                                personali.
+                            </label>
+                        </div>
+                        <div class="buttons">
+                            <button class="annulla">Annulla</button>
+                            <button class="invia" type="submit">Invia</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="rightContainer">
+                    <div class="mapContainer"></div>
+                    <div class="contactsContainer">
+                        <div class="contactElement">
+                            <div class="circleContainer0"></div>
+                            <div class="pContainer">
+                                <p>
+                                    Via Goffredo Mameli 19, <br />
+                                    20129 MILANO, (MI)
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contactElement">
+                            <div class="circleContainer"></div>
+                            <div class="pContainer">
+                                <p>
+                                    +39 3460951820 <br />
+                                    +39 02/0202020
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contactElement">
+                            <div class="circleContainer2"></div>
+                            <div class="pContainer">
+                                <p>
+                                    Info@smartit-srl.com <br />
+                                    smartitsrl@legalmail.it
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="goUp">
+            <div class="circle">
+                <div class="upArrow"></div>
+            </div>
+        </div>
+        <footer>
+            <div class="horizCont">
+                <div class="verticalOne">
+                    <div class="logoCont"></div>
+                    <div class="address">
+                        <div class="addressP">
+                            Cod. Fisc. e P. IVA11323710969
+                        </div>
+                        <div class="addressP">Capitale sociale € 10.000,00</div>
+                        <div class="addressP">REA MI 2594550</div>
+                    </div>
+                    <div class="socialCont">
+                        <div class="social">
+                            <div class="elem"></div>
+                        </div>
+                        <div class="social"><div class="elem2"></div></div>
+                        <div class="social"><div class="elem3"></div></div>
+                    </div>
+                </div>
+                <div class="verticalTwo second">
+                    <p class="tit">Servizi</p>
+                    <div class="data">Pulizie ordinarie e straordinarie</div>
+                    <div class="data">Sanificazioni</div>
+                    <div class="data">Servizio di portierato e reception</div>
+                    <div class="data">
+                        Manutenzione di impianti ed aree verdi
+                    </div>
+                    <div class="data">Ristrutturazioni</div>
+                </div>
+                <div class="verticalTwo">
+                    <p class="tit">Contatti</p>
+                    <div class="data">Sede legale MILANO (MI)</div>
+                    <div class="data">Via Goffredo Mameli 19, 20129</div>
+                    <div class="data">+39 3460951820</div>
+                    <div class="data">Info@smartit-srl.com</div>
+                    <div class="data">smartitsrl@legalmail.it</div>
+                </div>
+            </div>
+            <p class="copy">
+                Copyright © 2005-2021 Marktplaats BV All rights reserved.
+                Designated trademarks belong to their respective owners.
+            </p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
