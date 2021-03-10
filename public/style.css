@@ -34,7 +34,7 @@ body {
 }
 
 .overlayCont {
-    background-image: url("public/smartit.jpg");
+    background-image: url("images/smartit.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -131,7 +131,7 @@ a:active {
 }
 
 .underHeaderImg {
-    background-image: url("public/Rectangle.png");
+    background-image: url("images/Rectangle.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -256,7 +256,7 @@ a:active {
 .imgCont {
     height: 100%;
     width: 50%;
-    background-image: url("public/9.png");
+    background-image: url("images/9.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -266,7 +266,7 @@ a:active {
 .imgCont2 {
     height: 100%;
     width: 50%;
-    background-image: url("public/8.png");
+    background-image: url("images/8.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -276,7 +276,7 @@ a:active {
 .imgCont3 {
     height: 100%;
     width: 50%;
-    background-image: url("public/10.png");
+    background-image: url("images/10.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -366,7 +366,7 @@ a:active {
 }
 
 .upArrow {
-    background-image: url("public/upArrow.png");
+    background-image: url("images/upArrow.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -413,7 +413,7 @@ footer {
 .logoCont {
     width: 60%;
     height: 30%;
-    background-image: url("public/6.png");
+    background-image: url("images/6.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -465,7 +465,7 @@ footer {
 .elem {
     width: 35px;
     height: 35px;
-    background-image: url("public/Path.png");
+    background-image: url("images/Path.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -474,7 +474,7 @@ footer {
 .elem2 {
     width: 35px;
     height: 35px;
-    background-image: url("public/Path2.png");
+    background-image: url("images/Path2.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -483,7 +483,7 @@ footer {
 .elem3 {
     width: 35px;
     height: 35px;
-    background-image: url("public/Path3.png");
+    background-image: url("images/Path3.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -566,7 +566,7 @@ footer {
 .CarItem {
     width: 100%;
     height: 450px;
-    background-image: url("public/30.png");
+    background-image: url("images/30.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -575,7 +575,7 @@ footer {
 .CarItem2 {
     width: 100%;
     height: 450px;
-    background-image: url("public/31.png");
+    background-image: url("images/31.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -584,7 +584,7 @@ footer {
 .CarItem3 {
     width: 100%;
     height: 450px;
-    background-image: url("public/32.png");
+    background-image: url("images/32.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -593,7 +593,7 @@ footer {
 .CarItem4 {
     width: 100%;
     height: 450px;
-    background-image: url("public/35.png");
+    background-image: url("images/35.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -602,7 +602,7 @@ footer {
 .CarItem5 {
     width: 100%;
     height: 450px;
-    background-image: url("public/36.png");
+    background-image: url("images/36.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -611,7 +611,7 @@ footer {
 .CarItem6 {
     width: 100%;
     height: 450px;
-    background-image: url("public/37.png");
+    background-image: url("images/37.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -642,7 +642,7 @@ footer {
 .topImgOrdinary {
     margin-top: 40px;
     width: 100%;
-    background-image: url("public/30.png");
+    background-image: url("images/30.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -655,7 +655,7 @@ footer {
 .topImgStraordinary {
     margin-top: 40px;
     width: 100%;
-    background-image: url("public/31.png");
+    background-image: url("images/31.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -668,7 +668,7 @@ footer {
 .topImgSanify {
     margin-top: 40px;
     width: 100%;
-    background-image: url("public/32.png");
+    background-image: url("images/32.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -681,7 +681,7 @@ footer {
 .topImgReception {
     margin-top: 40px;
     width: 100%;
-    background-image: url("public/35.png");
+    background-image: url("images/35.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -694,7 +694,7 @@ footer {
 .topImgManutention {
     margin-top: 40px;
     width: 100%;
-    background-image: url("public/36.png");
+    background-image: url("images/36.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -707,7 +707,7 @@ footer {
 .topImgRenovation {
     margin-top: 40px;
     width: 100%;
-    background-image: url("public/37.png");
+    background-image: url("images/37.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -720,7 +720,7 @@ footer {
 .topImgAbout {
     margin-top: 40px;
     width: 100%;
-    background-image: url("public/10.png");
+    background-image: url("images/10.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -898,7 +898,7 @@ footer {
     width: 100%;
     height: 90%;
     border-radius: 22px;
-    background-image: url("public/30.png");
+    background-image: url("images/30.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -910,7 +910,7 @@ footer {
     width: 100%;
     height: 90%;
     border-radius: 22px;
-    background-image: url("public/31.png");
+    background-image: url("images/31.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -922,7 +922,7 @@ footer {
     width: 100%;
     height: 90%;
     border-radius: 22px;
-    background-image: url("public/32.png");
+    background-image: url("images/32.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -934,7 +934,7 @@ footer {
     width: 100%;
     height: 90%;
     border-radius: 22px;
-    background-image: url("public/35.png");
+    background-image: url("images/35.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -946,7 +946,7 @@ footer {
     width: 100%;
     height: 90%;
     border-radius: 22px;
-    background-image: url("public/36.png");
+    background-image: url("images/36.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -958,7 +958,7 @@ footer {
     width: 100%;
     height: 90%;
     border-radius: 22px;
-    background-image: url("public/37.png");
+    background-image: url("images/37.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1088,7 +1088,7 @@ footer {
     margin-top: 0;
     width: 100%;
     height: 40%;
-    background-image: url("public/map.png");
+    background-image: url("images/map.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1130,7 +1130,7 @@ footer {
     justify-content: center;
     align-items: center;
     margin-right: 10%;
-    background-image: url("public/home.png");
+    background-image: url("images/home.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1144,7 +1144,7 @@ footer {
     justify-content: center;
     align-items: center;
     margin-right: 10%;
-    background-image: url("public/tel.png");
+    background-image: url("images/tel.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1158,7 +1158,7 @@ footer {
     justify-content: center;
     align-items: center;
     margin-right: 10%;
-    background-image: url("public/mail.png");
+    background-image: url("images/mail.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
