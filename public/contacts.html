@@ -53,15 +53,18 @@
             </p>
             <div class="bigContainer">
                 <div class="leftContainer">
-                    <form class="form" action="" method="post">
+                    <p class="every">Every field is required!</p>
+                    <form class="form" id="form">
                         <input
                             class="input"
                             type="text"
-                            name="name"
+                            name="fullName"
+                            id="fullName"
                             placeholder="Nome"
                             required
                         />
                         <input
+                            id="email"
                             class="input"
                             type="text"
                             name="email"
@@ -69,9 +72,10 @@
                             required
                         />
                         <input
+                            id="oggetto"
                             class="input"
                             type="text"
-                            name="subject"
+                            name="oggetto"
                             placeholder="Oggetto"
                             required
                         />
@@ -80,6 +84,7 @@
                             class="textArea"
                             name="text"
                             id="text"
+                            required
                         ></textarea>
                         <div class="checkCont">
                             <input
@@ -87,6 +92,7 @@
                                 type="checkbox"
                                 name="accetto"
                                 id="accetto"
+                                required
                             />
                             <label class="label" for="accetto"
                                 >Autorizzo al trattamento dei miei dati
@@ -94,8 +100,10 @@
                             </label>
                         </div>
                         <div class="buttons">
-                            <button class="annulla">Annulla</button>
-                            <button class="invia" type="submit">Invia</button>
+                            <button class="annulla" id="annulla">
+                                Annulla
+                            </button>
+                            <button id="invia" class="invia">Invia</button>
                         </div>
                     </form>
                 </div>
@@ -130,6 +138,33 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="thanksContainer" id="thanksContainer">
+                    <p class="grazie">Grazie!</p>
+                    <p class="paragraf">
+                        La sua e-mail è stata inviata e verrà presto
+                        ricontattato da uno dei nostri operatori.
+                    </p>
+                    <button
+                        class="backToService"
+                        onclick="window.location.href='services.html';"
+                    >
+                        Torna ai servizi
+                    </button>
+                    <p class="chiudi" id="chiudi">Chiudi</p>
+                </div>
+                <div class="errorContainer">
+                    <p class="grazie">Ops!</p>
+                    <p class="paragraf">
+                        Qualcosa sembra essere andato storto...
+                    </p>
+                    <button
+                        class="backToService"
+                        onclick="window.location.href='contacts.html';"
+                    >
+                        Riprova
+                    </button>
+                    <p class="chiudi" id="chiudiErrore">Chiudi</p>
                 </div>
             </div>
         </div>
@@ -181,6 +216,7 @@
                 Designated trademarks belong to their respective owners.
             </p>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="script.js"></script>
     </body>

@@ -1169,6 +1169,72 @@ footer {
     overflow-x: scroll;
 }
 
+.thanksContainer,
+.errorContainer {
+    width: 70%;
+    height: 85%;
+    background-color: white;
+    position: absolute;
+    top: 80%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    border: 3px solid #669c30;
+}
+
+.thanksContainer p,
+.thanksContainer button,
+.errorContainer p,
+.errorContainer button {
+    z-index: 100000;
+}
+.grazie {
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.paragraf {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #666666;
+}
+
+.backToService {
+    margin-bottom: -70px;
+    padding: 16px 20px;
+    background-color: #669c30;
+    border-radius: 8px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+.chiudi {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    color: #6ca547;
+    cursor: pointer;
+}
+
+.every {
+    display: none;
+}
+
 /* MEDIA Q */
 
 @media (max-width: 1350px) {
