@@ -53,49 +53,57 @@
             </p>
             <div class="bigContainer">
                 <div class="leftContainer">
-                    <form class="form" action="" method="post">
+                    <p class="every2">Every field is required!</p>
+                    <form class="formPrev" id="formPrev">
                         <input
                             class="input"
                             type="text"
-                            name="name"
+                            name="namePrev"
+                            id="namePrev"
                             placeholder="Nome"
-                            required
                         />
                         <input
                             class="input"
                             type="text"
-                            name="email"
+                            name="emailPrev"
+                            id="emailPrev"
                             placeholder="Email"
-                            required
                         />
-                        <input
-                            class="input"
-                            type="text"
-                            name="subject"
-                            placeholder="Oggetto"
-                            required
-                        />
+                        <select name="servizi" id="servizi" class="input">
+                            <option class="opt" value="" disabled selected>
+                                Seleziona un servizio
+                            </option>
+                            <option>Pulizie ordinarie</option>
+                            <option>Pulizie straordinarie</option>
+                            <option>Sanificazioni</option>
+                            <option>Reception e portierato</option>
+                            <option>Manutenzione aree verdi</option>
+                            <option>Ristrutturazioni</option>
+                            <option>Altro</option>
+                        </select>
                         <textarea
                             placeholder="Messaggio"
                             class="textArea"
-                            name="text"
-                            id="text"
+                            name="textPrev"
+                            id="textPrev"
                         ></textarea>
                         <div class="checkCont">
                             <input
                                 class="check"
                                 type="checkbox"
-                                name="accetto"
-                                id="accetto"
+                                name="accettoPrev"
+                                id="accettoPrev"
                             />
-                            <label class="label" for="accetto"
+                            <label class="label" for="accettoPrev"
                                 >Autorizzo al trattamento dei miei dati
                                 personali.
                             </label>
                         </div>
                         <div class="buttons">
-                            <button class="annulla">Annulla</button>
-                            <button class="invia" type="submit">Invia</button>
+                            <button class="annullaPrev" id="annullaPrev">
+                                Annulla
+                            </button>
+                            <button class="invia" id="inviaPrev">Invia</button>
                         </div>
                     </form>
                 </div>
@@ -130,6 +138,33 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="thanksContainer" id="thanksContainerPrev">
+                    <p class="grazie">Grazie!</p>
+                    <p class="paragraf">
+                        La sua e-mail è stata inviata e verrà presto
+                        ricontattato da uno dei nostri operatori.
+                    </p>
+                    <button
+                        class="backToService"
+                        onclick="window.location.href='services.html';"
+                    >
+                        Torna ai servizi
+                    </button>
+                    <p class="chiudi" id="chiudiPrev">Chiudi</p>
+                </div>
+                <div class="errorContainer" id="errorContainerPrev">
+                    <p class="grazie">Ops!</p>
+                    <p class="paragraf">
+                        Qualcosa sembra essere andato storto...
+                    </p>
+                    <button
+                        class="backToService"
+                        onclick="window.location.href='contacts.html';"
+                    >
+                        Riprova
+                    </button>
+                    <p class="chiudi" id="chiudiErrorePrev">Chiudi</p>
                 </div>
             </div>
         </div>
@@ -181,7 +216,8 @@
                 Designated trademarks belong to their respective owners.
             </p>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="script.js"></script>
+        <script src="prev.js"></script>
     </body>
 </html>

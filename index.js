@@ -28,6 +28,24 @@ app.post("/contact", (req, res) => {
         req.body.oggetto,
         `Nome: ${req.body.fullName}
     Email: ${req.body.email}
+    Oggetto: ${req.body.oggetto}
+    Messaggio: ${req.body.text}`
+    )
+        .then(() => res.send({ success: true }))
+        .catch((err) => {
+            console.log(err);
+            res.send({ success: false });
+        });
+});
+
+app.post("/preventivo", (req, res) => {
+    console.log("from preventivo: ", req.body);
+    sendEmail(
+        email,
+        req.body.oggetto,
+        `Nome: ${req.body.fullName}
+    Email: ${req.body.email}
+    Servizio scelto: ${req.body.oggetto}
     Messaggio: ${req.body.text}`
     )
         .then(() => res.send({ success: true }))
