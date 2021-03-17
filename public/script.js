@@ -50,6 +50,54 @@ $(window).scroll(function () {
     position = scroll;
 });
 
+$("#ord").hover(function () {
+    $("#riga").css({
+        justifyContent: "flex-start",
+    });
+});
+
+$("#manu").hover(function () {
+    $("#riga").css({
+        justifyContent: "center",
+    });
+});
+
+$("#rec").hover(function () {
+    $("#riga").css({
+        justifyContent: "flex-end",
+    });
+});
+
+$("#carroConta").click(function () {
+    window.location.href = "services.html";
+});
+
+// const rigaLeft = () => {
+//     if ($("#primo").hasClass("active")) {
+//         $("#secondariga").css({
+//             justifyContent: "flex-start",
+//         });
+// };
+
+// const rigaCenter = () => {
+//     if ($("#secondo").hasClass("active")) {
+//         console.log("uuuuuuuuuu");
+//         $("#secondariga").css({
+//             justifyContent: "center",
+//         });
+// }
+
+// const rigaRight = () => {
+//     if ($("#terzo").hasClass("active")) {
+//         $("#secondariga").css({
+//             justifyContent: "flex-end",
+//         });
+//     }
+// }
+// rigaLeft();
+// rigaCenter();
+// rigaRight();
+
 // Go Up system
 
 $(".circle").click(function () {

@@ -7,6 +7,7 @@ body {
     max-height: 100%;
     overflow-x: hidden;
     /* background-color: rgba(102, 156, 48, 0.2); */
+    font-family: "Open Sans", sans-serif;
 }
 
 .startOverlay {
@@ -343,7 +344,7 @@ a:active {
 }
 
 .goUp {
-    width: 80%;
+    width: 100%;
     height: 103px;
     display: flex;
     align-items: center;
@@ -355,24 +356,28 @@ a:active {
 }
 
 .circle {
-    width: 103px;
-    height: 103px;
+    width: 83px;
+    height: 83px;
     border-radius: 100%;
-    background-color: rgba(102, 156, 48, 0.47);
+    /* background-color: rgba(102, 156, 48, 0.47);
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    background-image: url("images/uppp.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
-.upArrow {
+/* .upArrow {
     background-image: url("images/upArrow.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     width: 50%;
     height: 40%;
-}
+} */
 
 footer {
     width: 100%;
@@ -559,85 +564,9 @@ footer {
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
 }
 
-.carousel {
+/* .carousel {
     max-height: 450px;
-}
-
-.CarItem {
-    width: 100%;
-    height: 450px;
-    background-image: url("images/30.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.CarItem2 {
-    width: 100%;
-    height: 450px;
-    background-image: url("images/31.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.CarItem3 {
-    width: 100%;
-    height: 450px;
-    background-image: url("images/32.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.CarItem4 {
-    width: 100%;
-    height: 450px;
-    background-image: url("images/35.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.CarItem5 {
-    width: 100%;
-    height: 450px;
-    background-image: url("images/36.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.CarItem6 {
-    width: 100%;
-    height: 450px;
-    background-image: url("images/37.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.carouselCard {
-    width: 60%;
-    height: 50%;
-    background-color: rgba(0, 0, 0, 0.2);
-    margin: auto;
-    position: relative;
-    top: 25%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    border-radius: 31px;
-}
-
-.carouselCard p {
-    font-family: "Open Sans", sans-serif;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    color: white;
-}
+} */
 
 .topImgOrdinary {
     margin-top: 40px;
@@ -1260,6 +1189,398 @@ footer {
     display: none;
 }
 
+.paddingContainer {
+    margin-top: 70px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.subTitle {
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.subSub {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    width: 70%;
+}
+
+.richiesti {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 448px;
+}
+
+.ord {
+    background-image: url("images/ord.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+    margin-right: 16px;
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.ordButt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 40px;
+    background-color: white;
+    width: 60%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    color: black;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    height: 62px;
+    margin-bottom: 13px;
+}
+
+.ordButt p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.ordButt img {
+    margin-left: 10px;
+    width: 22px;
+    height: 14px;
+    margin-top: 4px;
+}
+
+.manu {
+    background-image: url("images/man.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+    margin-right: 16px;
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.rec {
+    background-image: url("images/rec.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.riga {
+    width: 100%;
+    height: 3px;
+    background-color: rgba(72, 76, 76, 0.35);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 41px;
+    margin-bottom: 81px;
+}
+
+.scura {
+    width: 50%;
+    height: 3px;
+    background-color: #171717;
+}
+
+.sani {
+    width: 100%;
+    height: 622px;
+    background-image: url("images/92.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+    padding-left: 55px;
+    padding-top: 40px;
+    margin-bottom: 71px;
+}
+
+.saniC {
+    width: 100%;
+    height: 622px;
+    background-image: url("images/siamo.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 71px;
+}
+
+.conta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.ContaC {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+}
+
+.saniP {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+}
+
+.sanipp {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    width: 346px;
+}
+
+.sanippC {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    width: 346px;
+    text-align: end;
+}
+
+.sabutt {
+    height: 46px;
+    width: 180.2903289794922px;
+    background-color: #669c30;
+    border-radius: 40px;
+    padding: 15px, 30px, 15px, 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.testtt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.testtt p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.testtt img {
+    margin-left: 10px;
+    width: 22px;
+    height: 14px;
+}
+
+#carouselExampleIndicators {
+    width: 100%;
+    height: 449px;
+}
+
+.carousel-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+#carroConta {
+    width: 33%;
+    height: 449px;
+    border-radius: 14px;
+    background-color: #669c30;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 49px;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+
+.sc {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+    width: 50%;
+}
+
+.ci {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    width: 60%;
+    margin-bottom: 50px;
+}
+
+#carroConta2 {
+    width: 33%;
+    height: 449px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+    background-image: url("images/ord.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+}
+#carroConta3 {
+    width: 33%;
+    height: 449px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+    background-image: url("images/stra.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+}
+
+#carroConta4 {
+    width: 33%;
+    height: 449px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+    background-image: url("images/92.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+}
+
+#carroConta5 {
+    width: 33%;
+    height: 449px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+    background-image: url("images/man.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+}
+
+#carroConta6 {
+    width: 33%;
+    height: 449px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+    background-image: url("images/rec.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+}
+
+#carroConta7 {
+    width: 33%;
+    height: 449px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+    background-image: url("images/reno.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+}
+
+.firstInner {
+    width: 100%;
+    height: 448px;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstInnerinnen {
+    width: 100%;
+    height: 448px;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.caroConta {
+    width: 100%;
+    height: 448px;
+}
 /* MEDIA Q */
 
 @media (max-width: 1350px) {
@@ -1393,6 +1714,7 @@ footer {
 
     .copy {
         font-size: 15px;
+        display: none;
     }
 
     .navbar {
