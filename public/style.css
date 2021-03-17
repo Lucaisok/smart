@@ -537,7 +537,6 @@ footer {
 
 .path {
     margin-top: 15vh;
-    padding-left: 100px;
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
     font-style: normal;
@@ -564,104 +563,9 @@ footer {
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
 }
 
-/* .carousel {
-    max-height: 450px;
-} */
-
-.topImgOrdinary {
-    margin-top: 40px;
-    width: 100%;
-    background-image: url("images/30.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 61px;
-    height: 450px;
-    margin-bottom: 56px;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
-}
-
-.topImgStraordinary {
-    margin-top: 40px;
-    width: 100%;
-    background-image: url("images/31.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 61px;
-    height: 450px;
-    margin-bottom: 56px;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
-}
-
-.topImgSanify {
-    margin-top: 40px;
-    width: 100%;
-    background-image: url("images/32.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 61px;
-    height: 450px;
-    margin-bottom: 56px;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
-}
-
-.topImgReception {
-    margin-top: 40px;
-    width: 100%;
-    background-image: url("images/35.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 61px;
-    height: 450px;
-    margin-bottom: 56px;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
-}
-
-.topImgManutention {
-    margin-top: 40px;
-    width: 100%;
-    background-image: url("images/36.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 61px;
-    height: 450px;
-    margin-bottom: 56px;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
-}
-
-.topImgRenovation {
-    margin-top: 40px;
-    width: 100%;
-    background-image: url("images/37.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 61px;
-    height: 450px;
-    margin-bottom: 56px;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
-}
-
-.topImgAbout {
-    margin-top: 40px;
-    width: 100%;
-    background-image: url("images/10.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 61px;
-    height: 450px;
-    margin-bottom: 56px;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
-}
-
 .ourServices {
     font-family: "Open Sans", sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
 }
@@ -680,7 +584,7 @@ footer {
     font-style: normal;
     font-weight: 400;
     margin-top: 30px;
-    width: 40%;
+    width: 95%;
     margin-bottom: 50px;
 }
 
@@ -689,9 +593,8 @@ footer {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    margin-top: 30px;
-    width: 100%;
-    margin-bottom: 50px;
+    width: 90%;
+    margin-bottom: 80px;
 }
 
 .ourParagContacts {
@@ -728,13 +631,13 @@ footer {
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
     margin-bottom: 100px;
 }
 
 .contactButton {
-    width: 200px;
+    width: 180px;
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -746,10 +649,11 @@ footer {
     border-radius: 40px;
     padding: 10px;
     cursor: pointer;
+    margin-right: 30px;
 }
 
 .priceButton {
-    width: 200px;
+    width: 180px;
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -776,6 +680,7 @@ footer {
     border-radius: 40px;
     padding: 10px;
     cursor: pointer;
+    margin-right: 10%;
 }
 
 .annullaPrev {
@@ -791,6 +696,7 @@ footer {
     border-radius: 40px;
     padding: 10px;
     cursor: pointer;
+    margin-right: 10%;
 }
 
 .invia {
@@ -821,21 +727,13 @@ footer {
 .card {
     display: flex !important;
     flex-direction: column !important;
-    align-items: flex-start !important;
-    justify-content: space-between !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
     width: 100% !important;
-    height: 300px !important;
-    border-radius: 37px !important;
-    background-color: #f6f6f6 !important;
-    padding: 33px !important;
-    cursor: pointer !important;
+    height: 449px !important;
+    border-radius: 14px !important;
     border: none !important;
     box-sizing: content-box !important;
-    /* box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12); */
-}
-
-.cardAnchor {
-    width: 20%;
 }
 
 .serviceImg {
@@ -939,7 +837,7 @@ footer {
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -949,6 +847,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    margin-left: 5%;
 }
 
 .input {
@@ -1021,6 +920,7 @@ footer {
 }
 
 .rightContainer {
+    margin-right: 5%;
     width: 30%;
     display: flex;
     flex-direction: column;
@@ -1221,6 +1121,7 @@ footer {
     align-items: center;
     width: 100%;
     height: 448px;
+    margin-bottom: 10px;
 }
 
 .ord {
@@ -1444,7 +1345,9 @@ footer {
     justify-content: flex-start;
     padding-top: 49px;
     padding-left: 20px;
-    margin-right: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    /* margin-bottom: 20px; */
 }
 
 .sc {
@@ -1477,7 +1380,9 @@ footer {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-right: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    /* margin-bottom: 20px; */
 }
 #carroConta3 {
     width: 33%;
@@ -1492,7 +1397,8 @@ footer {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-right: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 #carroConta4 {
@@ -1508,7 +1414,8 @@ footer {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-right: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 #carroConta5 {
@@ -1524,7 +1431,9 @@ footer {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-right: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    /* margin-bottom: 20px; */
 }
 
 #carroConta6 {
@@ -1540,7 +1449,9 @@ footer {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-right: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    /* margin-bottom: 20px; */
 }
 
 #carroConta7 {
@@ -1556,7 +1467,8 @@ footer {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-right: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .firstInner {
@@ -1580,6 +1492,108 @@ footer {
 .caroConta {
     width: 100%;
     height: 448px;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: #e3e3e3;
+    margin-bottom: 45px;
+}
+
+.sottoTesta {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.topContainer {
+    width: 55%;
+    height: 550px;
+    border-radius: 14px;
+    background-image: url("images/office.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topContainer2 {
+    width: 55%;
+    height: 550px;
+    border-radius: 14px;
+    background-image: url("images/stra.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topContainer3 {
+    width: 55%;
+    height: 550px;
+    border-radius: 14px;
+    background-image: url("images/man.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topContainer4 {
+    width: 55%;
+    height: 550px;
+    border-radius: 14px;
+    background-image: url("images/rec.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topContainer5 {
+    width: 55%;
+    height: 550px;
+    border-radius: 14px;
+    background-image: url("images/92.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topContainer6 {
+    width: 55%;
+    height: 550px;
+    border-radius: 14px;
+    background-image: url("images/reno.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topContainer7 {
+    width: 55%;
+    height: 550px;
+    border-radius: 14px;
+    background-image: url("images/10.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.manut {
+    margin-top: 90px;
+}
+
+.bioContainer {
+    width: 45%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-left: 43px;
+    /* padding-top: 20px; */
 }
 /* MEDIA Q */
 
