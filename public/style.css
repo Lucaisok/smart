@@ -1,4 +1,4 @@
-body {
+body, html {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -86,6 +86,8 @@ a:active {
     width: 100%;
     max-width: 100%;
     height: 12%;
+    /* max-height: 12%;
+    min-height: 12%; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1595,7 +1597,192 @@ footer {
     padding-left: 43px;
     /* padding-top: 20px; */
 }
+
+.hamburger {
+    width: 100px;
+    height: 60px;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+.hambSection {
+    width: 50px;
+    height: 2px;
+    background-color: #6CA547;
+    margin-top: -5px;
+}
+
+.hamburgerShow {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    z-index: 9999999999;
+}
+
+.on {
+    transform: translateX(-100%);
+    transition-duration: 2s;
+}
+
+.off {
+    transform: translateX(100%);
+    transition-duration: 2s;
+}
+
+.closeX {
+    color: #282A2C;
+    font-size: 40px;
+    text-align: right;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.navItemsContainerMobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+.navItemsContainerMobile li {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.logoConta {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.logoConta img {
+    height: 80px;
+    width: auto;
+}
+
+.subFootContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+/* .desktop {
+    display: flex !important;
+} */
+.mobile {
+    display: none !important;
+}
+
+
 /* MEDIA Q */
+
+/* SMARTPHONE */
+
+@media (max-width: 576px) {
+    .mobile {
+        display: inline-block !important;
+    }
+
+    .desktop {
+        display: none !important;
+    }
+
+    .subTitle {
+        font-size: 48px;
+    }
+
+    .subSub {
+        font-size: 30px;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    .verticalOne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 300px;
+}
+
+.verticalTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 50%;
+    height: 300px;
+    margin-bottom: 50px;
+    padding-left: 50px;  
+}
+
+.verticalTwo > div, .verticalTwo p {
+    margin-bottom: 10px;
+}
+
+.data {
+    margin-bottom: 0;
+}
+
+.tit {
+    margin-bottom: 0;
+}
+
+.sani, .saniC {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.headerButton {
+    width: 60% !important;
+    margin-bottom: 0;
+}
+
+.closed {
+    height: 106%;
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* margin-right: 10%; */
+}
+
+.closeX {
+    color: #282A2C;
+    font-size: 40px;
+    text-align: right;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.paddingContainer {
+    margin-top: 54px;
+}
+}
 
 @media (max-width: 1350px) {
     .baffi {
@@ -1616,6 +1803,11 @@ footer {
 }
 
 @media (max-width: 1200px) {
+
+    .richiesti button {
+        width: 90%;
+    }
+
     .baffi {
         width: 67%;
         height: 50%;
@@ -1696,6 +1888,14 @@ footer {
 }
 
 @media (max-width: 900px) {
+    .paddingContainer {
+        width: 90%;
+    }
+
+    .richiesti button {
+        width: 90%;
+    }
+
     .headerButton {
         width: 25%;
     }
@@ -1738,9 +1938,17 @@ footer {
     .header img {
         margin-left: 50px;
     }
+
+    #carroConta, #carroConta2, #carroConta3, #carroConta4, #carroConta5, #carroConta6, #carroConta7 {
+        width: 100%;
+    }
+
 }
 
 @media (max-width: 650px) {
+    .richiesti p {
+        font-size: 13px;
+    }
     .headerButton {
         width: 35%;
     }
@@ -1771,4 +1979,4 @@ footer {
     }
 }
 
-/* SMARTPHONE */
+
