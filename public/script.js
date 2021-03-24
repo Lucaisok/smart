@@ -33,9 +33,9 @@ var position = $(window).scrollTop();
 $(window).scroll(function () {
     var scroll = $(window).scrollTop();
     if (scroll > position) {
-        console.log("uuuuu")
+        console.log("uuuuu");
         if (window.pageYOffset >= 90) {
-            console.log("go down!")
+            console.log("go down!");
             $("header").addClass("headerShadow");
         }
         $("header").css({
@@ -51,6 +51,8 @@ $(window).scroll(function () {
     }
     position = scroll;
 });
+
+//Gray line system
 
 $("#ord").hover(function () {
     $("#riga").css({
@@ -80,94 +82,15 @@ $(".circle").click(function () {
     $("html, body").animate({ scrollTop: 0 }, 1000);
 });
 
-// Contact system
-
-// annulla.addEventListener("click", () => {
-//     location.reload();
-// });
-
-// invia.addEventListener("click", (event) => {
-//     event.preventDefault();
-//     console.log("cxlicked");
-//     let fullName = f.value;
-//     let email = em.value;
-//     let oggetto = o.value;
-//     let text = t.value;
-
-//     let formFields = {
-//         fullName: fullName,
-//         email: email,
-//         text: text,
-//         oggetto: oggetto,
-//     };
-
-//     console.log(formFields);
-//     if (
-//         fullName != "" &&
-//         email != "" &&
-//         oggetto != "" &&
-//         text != "" &&
-//         accetto.checked == true
-//     ) {
-//         axios
-//             .post("/contact", formFields)
-//             .then(function (response) {
-//                 console.log(response);
-//                 if (response.data.success) {
-//                     // here thanks
-//                     f.value = " ";
-//                     em.value = " ";
-//                     o.value = " ";
-//                     t.value = " ";
-//                     accetto.checked = false;
-//                     $(".thanksContainer").css({
-//                         display: "flex",
-//                     });
-//                     $(".every").css({
-//                         display: "none",
-//                     });
-//                 } else {
-//                     // here error
-//                     $(".errorContainer").css({
-//                         display: "flex",
-//                     });
-//                     $(".every").css({
-//                         display: "none",
-//                     });
-//                 }
-//             })
-//             .catch(function (error) {
-//                 console.log(error);
-//                 $(".errorContainer").css({
-//                     display: "flex",
-//                 });
-//             });
-//     } else {
-//         $(".every").css({
-//             display: "block",
-//         });
-//     }
-// });
-
-$("#chiudi").click(function () {
-    $(".thanksContainer").css({
-        display: "none",
-    });
-});
-
-$("#chiudiErrore").click(function () {
-    $(".errorContainer").css({
-        display: "none",
-    });
-});
+// Hamburger System
 
 $("#hamburger").click(function () {
-    console.log("clicked!")
-    $("#hamburgerShow").addClass("on")
-    $("#hamburgerShow").removeClass("off")
-})
+    console.log("clicked!");
+    $("#hamburgerShow").addClass("on");
+    $("#hamburgerShow").removeClass("off");
+});
 
-$("#closeX").click(()=>{
-    $("#hamburgerShow").addClass("off")
-    $("#hamburgerShow").removeClass("on")
-})
+$("#closeX").click(() => {
+    $("#hamburgerShow").addClass("off");
+    $("#hamburgerShow").removeClass("on");
+});
