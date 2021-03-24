@@ -111,3 +111,14 @@ $("#chiudiErrorePrev").click(function () {
         display: "none",
     });
 });
+
+$("#hamburger").click(function () {
+    console.log("clicked!");
+    $("#hamburgerShow").addClass("on");
+    $("#hamburgerShow").removeClass("off");
+});
+
+$("#closeX").click(() => {
+    $("#hamburgerShow").addClass("off");
+    $("#hamburgerShow").removeClass("on");
+});
