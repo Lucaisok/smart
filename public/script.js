@@ -1,11 +1,4 @@
 const overlay = document.getElementById("overlay");
-let invia = document.getElementById("invia");
-let annulla = document.getElementById("annulla");
-let accetto = document.getElementById("accetto");
-let f = document.getElementById("fullName");
-let em = document.getElementById("email");
-let o = document.getElementById("oggetto");
-let t = document.getElementById("text");
 
 // Overlay disappear
 
@@ -31,6 +24,7 @@ disappear();
 var position = $(window).scrollTop();
 
 $(window).scroll(function () {
+    console.log("scrollo")
     var scroll = $(window).scrollTop();
     if (scroll > position) {
         console.log("uuuuu");
@@ -42,6 +36,7 @@ $(window).scroll(function () {
             position: "absolute",
         });
     } else {
+        console.log("buuuu")
         if (window.pageYOffset < 50) {
             $("header").removeClass("headerShadow");
         }
