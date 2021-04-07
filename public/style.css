@@ -150,6 +150,7 @@ a:active {
     align-items: center;
     position: relative;
     top: 12%;
+    padding-top: 50px;
 }
 
 .baffi {
@@ -1704,6 +1705,10 @@ footer {
     display: none !important;
 }
 
+.tablet {
+        display: none !important;
+}
+
 /* MEDIA Q */
 
 /* SMARTPHONE */
@@ -1810,114 +1815,8 @@ footer {
     }
 }
 
+
 @media (max-width: 900px) {
-    .paddingContainer {
-        width: 80%;
-    }
-
-    .richiesti button {
-        width: 90%;
-    }
-
-    .headerButton {
-        width: 25%;
-    }
-
-    .underHeaderImg p {
-        font-size: 66px;
-    }
-
-
-    .open img {
-    width: 93px;
-    height: 80px;
-}
-
-.closed img {
-    width: 93px;
-    height: 80px;
-}
-    .open img {
-        width: 103px;
-        height: 80px;
-    }
-
-    .closed img {
-        width: 103px;
-        height: 80px;
-    }
-
-    .baffi {
-        width: 86%;
-        height: 43%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        position: absolute;
-        top: 18%;
-        right: 12%;
-        z-index: 1;
-    }
-
-    .copy {
-        font-size: 15px;
-        display: none;
-    }
-
-    .navbar {
-        margin-right: 50px;
-    }
-
-    .header img {
-        margin-left: 50px;
-    }
-
-    #carroConta,
-    #carroConta2,
-    #carroConta3,
-    #carroConta4,
-    #carroConta5,
-    #carroConta6,
-    #carroConta7 {
-        width: 100%;
-    }
-}
-
-@media (max-width: 650px) {
-    .richiesti p {
-        font-size: 13px;
-    }
-    .headerButton {
-        width: 35%;
-    }
-
-    .sanifications,
-    .services {
-        width: 83%;
-    }
-
-    .title {
-        font-size: 28px;
-    }
-
-    .parag {
-        font-size: 15px;
-    }
-
-    .baffi {
-        width: 88%;
-        height: 58%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        position: absolute;
-        top: 12%;
-        right: 6%;
-        z-index: 1;
-    }
-}
-
-@media (max-width: 576px) {
 
     .header {
         height: 9%;
@@ -1926,6 +1825,7 @@ footer {
     .underHeaderImg {
         height: 91%;
         top: 9%;
+        padding-top: 0;
     }
 
     .header img {
@@ -1972,7 +1872,7 @@ footer {
     .verticalTwo {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         justify-content: flex-start;
         width: 50%;
         height: 300px;
@@ -2052,6 +1952,7 @@ footer {
         height: 249px;
         margin-left: 0;
         margin-right: 0;
+        width: 100%;
     }
 
     .ordButt {
@@ -2184,6 +2085,43 @@ footer {
     width: 83px;
     height: 70px;
 }
+}
+
+@media (max-width: 650px) {
+    .verticalTwo {
+        align-items: flex-start;
+    }
+    .richiesti p {
+        font-size: 13px;
+    }
+    .headerButton {
+        width: 35%;
+    }
+
+    .sanifications,
+    .services {
+        width: 83%;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+
+    .parag {
+        font-size: 15px;
+    }
+
+    .baffi {
+        width: 88%;
+        height: 58%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: absolute;
+        top: 12%;
+        right: 6%;
+        z-index: 1;
+    }
 }
 
 @media (max-width: 450px) {
