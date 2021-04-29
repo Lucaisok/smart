@@ -49,7 +49,7 @@ ul {
 }
 
 a {
-    color: black;
+    color: black !important;
     text-decoration: none !important;
 } /* Unvisited link  */
 a:visited {
