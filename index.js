@@ -4,7 +4,7 @@ const compression = require("compression");
 const bodyParser = require("body-parser");
 const port = process.env.PORT || 8080;
 const { sendEmail } = require("./ses.js");
-const email = `lucatomarelli1@gmail.com`;
+const email = `Info@smartit-srl.com`;
 const axios = require("axios");
 
 app.use(express.static(__dirname + "/public"));
