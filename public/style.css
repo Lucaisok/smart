@@ -1692,7 +1692,7 @@ footer {
     justify-content: center;
     align-items: center;
     position: absolute;
-    padding-bottom: 30px;
+    bottom: 3%;
 }
 
 .logoConta img {
