@@ -1692,7 +1692,7 @@ footer {
     justify-content: center;
     align-items: center;
     position: absolute;
-    bottom: 30px;
+    padding-bottom: 30px;
 }
 
 .logoConta img {
@@ -1934,11 +1934,6 @@ footer {
 
     .closed {
         height: 106%;
-        /* background-color: aliceblue; */
-        /* display: flex;
-        flex-direction: column;
-        justify-content: flex-end; */
-        /* margin-right: 10%; */
     }
 
     .closeX {
@@ -1948,7 +1943,7 @@ footer {
         font-weight: bold;
         margin-right: 20px;
         margin-top: 10px;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
         cursor: pointer;
     }
 
@@ -2112,6 +2107,10 @@ footer {
     .closed img {
         width: 83px;
         height: 70px;
+    }
+
+    .input {
+        height: 50px;
     }
 }
 
