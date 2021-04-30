@@ -1692,7 +1692,7 @@ footer {
     justify-content: center;
     align-items: center;
     position: absolute;
-    bottom: 0;
+    bottom: 30px;
 }
 
 .logoConta img {
@@ -1831,6 +1831,19 @@ footer {
     }
 }
 
+@media (max-width: 1300px) and (min-width: 900px) {
+    .ourParagService {
+        margin-bottom: 35px;
+    }
+    .manut {
+        margin-bottom: -10px;
+    }
+
+    .ourServices {
+        margin-bottom: -15px;
+    }
+}
+
 @media (max-width: 900px) {
     .header {
         height: 9%;
@@ -1936,6 +1949,7 @@ footer {
         margin-right: 20px;
         margin-top: 10px;
         margin-bottom: 50px;
+        cursor: pointer;
     }
 
     .paddingContainer {
