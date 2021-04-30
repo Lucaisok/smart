@@ -1692,7 +1692,7 @@ footer {
     justify-content: center;
     align-items: center;
     position: absolute;
-    bottom: 3%;
+    bottom: 40px;
 }
 
 .logoConta img {
@@ -2013,10 +2013,14 @@ footer {
     .topContainer3,
     .topContainer4,
     .topContainer5,
-    .topContainer6,
-    .topContainer7 {
+    .topContainer6 {
         width: 100%;
         height: 300px;
+    }
+
+    .topContainer7 {
+        width: 92%;
+        height: 200px;
     }
 
     .bioContainer {
