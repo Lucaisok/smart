@@ -228,6 +228,7 @@ a:active {
     margin-left: 10px;
     width: 22px;
     height: 14px;
+    display: none;
 }
 
 .sanifications {
@@ -1346,6 +1347,7 @@ footer {
     margin-left: 10px;
     width: 22px;
     height: 14px;
+    display: none;
 }
 
 #carouselExampleIndicators {
@@ -1692,7 +1694,7 @@ footer {
     justify-content: center;
     align-items: center;
     position: absolute;
-    bottom: 40px;
+    bottom: 50px;
 }
 
 .logoConta img {
@@ -2117,9 +2119,15 @@ footer {
         height: 45px;
         padding-bottom: 0px;
     }
+    .testtt p {
+        margin-bottom: 2px;
+    }
 }
 
 @media (max-width: 650px) {
+    .testtt p {
+        margin-bottom: 1px;
+    }
     .verticalTwo {
         align-items: flex-start;
     }
@@ -2188,6 +2196,9 @@ footer {
 }
 
 @media (max-width: 450px) {
+    .testtt p {
+        margin-bottom: 0;
+    }
     .underHeaderImg p {
         font-size: 40px;
     }
