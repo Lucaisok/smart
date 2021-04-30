@@ -2110,7 +2110,8 @@ footer {
     }
 
     .input {
-        height: 50px;
+        height: 45px;
+        padding-bottom: 0px;
     }
 }
 
