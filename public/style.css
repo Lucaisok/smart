@@ -1298,6 +1298,7 @@ footer {
     font-style: normal;
     font-weight: 700;
     color: white;
+    margin-bottom: 5px;
 }
 
 .sanipp {
@@ -1306,6 +1307,7 @@ footer {
     font-weight: 400;
     color: white;
     width: 346px;
+    margin-bottom: 40px;
 }
 
 .sanippC {
@@ -1716,7 +1718,7 @@ footer {
 }
 
 .mottoContainer {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .mobile {
@@ -1730,6 +1732,12 @@ footer {
 /* MEDIA Q */
 
 /* SMARTPHONE */
+
+@media (min-width: 1350px) {
+    .topContainer7 {
+        width: 50%;
+    }
+}
 
 @media (max-width: 1350px) {
     .baffi {
