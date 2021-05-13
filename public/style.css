@@ -1163,6 +1163,16 @@ footer {
     margin-bottom: 10px;
 }
 
+.richiestiLast {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 448px;
+    margin-bottom: 10px;
+}
+
 .ord {
     background-image: url("images/ord.png");
     background-position: center;
@@ -1213,7 +1223,7 @@ footer {
 }
 
 .manu {
-    background-image: url("images/man.png");
+    background-image: url("images/green.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1514,6 +1524,23 @@ footer {
     margin-left: 10px;
 }
 
+#carroConta8 {
+    width: 33%;
+    height: 449px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+    background-image: url("images/green.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
 .firstInner {
     width: 100%;
     height: 448px;
@@ -1619,6 +1646,16 @@ footer {
     height: 550px;
     border-radius: 14px;
     background-image: url("images/10.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topContainer8 {
+    width: 55%;
+    height: 550px;
+    border-radius: 14px;
+    background-image: url("images/green.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2053,7 +2090,8 @@ footer {
     #carroConta4,
     #carroConta5,
     #carroConta6,
-    #carroConta7 {
+    #carroConta7,
+    #carroConta8 {
         height: 249px;
         margin-left: 0;
         margin-right: 0;
@@ -2072,7 +2110,7 @@ footer {
     }
 
     .cardsContainer {
-        margin-bottom: 227px;
+        margin-bottom: 480px;
     }
 
     .sottoTesta {
@@ -2095,7 +2133,8 @@ footer {
     .topContainer3,
     .topContainer4,
     .topContainer5,
-    .topContainer6 {
+    .topContainer6,
+    .topContainer8 {
         width: 100%;
         height: 300px;
     }
