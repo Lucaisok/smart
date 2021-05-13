@@ -115,6 +115,17 @@ a:active {
     width: auto;
 }
 
+#justText {
+    margin-left: 0;
+    height: 30px;
+}
+
+/* .justLogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} */
+
 .navbar {
     display: flex;
     flex-direction: row;
@@ -413,7 +424,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     width: 30%;
     height: 100%;
     /* background-color: thistle; */
@@ -458,6 +469,7 @@ footer {
     justify-content: space-around;
     width: 50%;
     height: 30%;
+    display: none;
 }
 
 .social {
@@ -975,7 +987,7 @@ footer {
 
 .contactElement p {
     font-family: "Open Sans", sans-serif;
-    font-size: 17px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 600;
     color: #484d4d;
@@ -1024,7 +1036,7 @@ footer {
 }
 
 .pContainer {
-    width: 60%;
+    width: 70%;
     overflow-x: scroll;
 }
 
@@ -1729,9 +1741,22 @@ footer {
     display: none !important;
 }
 
-/* MEDIA Q */
+#justTextMobile {
+    display: none;
+}
 
-/* SMARTPHONE */
+.carousel-control-next,
+.carousel-control-prev {
+    position: absolute;
+    top: 40% !important;
+    bottom: 40% !important;
+    opacity: 1 !important;
+}
+
+#carroConta img {
+    cursor: pointer;
+}
+/* MEDIA Q */
 
 @media (min-width: 1350px) {
     .topContainer7 {
@@ -1754,6 +1779,14 @@ footer {
 
     .socialCont {
         width: 75%;
+    }
+
+    .sc {
+        width: 60%;
+    }
+
+    .ci {
+        width: 78%;
     }
 }
 
@@ -1806,9 +1839,28 @@ footer {
         width: 30px;
         height: 30px;
     }
+
+    .sc {
+        width: 67%;
+    }
+
+    .ci {
+        width: 83%;
+    }
+
+    .contactElement p {
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 1100px) {
+    .pContainer {
+        width: 86%;
+    }
+
+    .contactElement p {
+        font-size: 14px;
+    }
     .headerButton {
         width: 20%;
     }
@@ -1839,6 +1891,14 @@ footer {
     .sanifications {
         width: 75%;
     }
+
+    .sc {
+        width: 88%;
+    }
+
+    .ci {
+        width: 97%;
+    }
 }
 
 @media (max-width: 1300px) and (min-width: 900px) {
@@ -1855,6 +1915,18 @@ footer {
 }
 
 @media (max-width: 900px) {
+    #carroConta img {
+        margin-top: 10%;
+    }
+
+    .sc {
+        width: 50%;
+    }
+
+    .ci {
+        width: 60%;
+    }
+
     .header {
         height: 9%;
     }
@@ -2096,7 +2168,7 @@ footer {
     }
 
     .hamburger {
-        padding-top: 51px;
+        padding-top: 55px;
         margin-left: 30px;
     }
 
@@ -2170,6 +2242,21 @@ footer {
         right: 6%;
         z-index: 1;
     }
+
+    #justText {
+        display: none;
+    }
+    #justTextMobile {
+        display: inline;
+        height: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 25px;
+    }
+
+    .hamburger {
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 450px) {
@@ -2223,6 +2310,14 @@ footer {
 }
 
 @media (max-width: 380px) {
+    #carroConta img {
+        margin-top: 0;
+    }
+
+    .sc {
+        width: 61% !important;
+    }
+
     .underHeaderImg p {
         font-size: 35px;
     }
