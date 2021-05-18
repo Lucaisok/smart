@@ -879,6 +879,7 @@ footer {
     border: 1px solid #e6e6e6;
     background-color: #f9f9f9;
     padding-left: 10px;
+    box-sizing: content-box;
 }
 
 .input::placeholder {
@@ -1792,6 +1793,14 @@ footer {
 
 #carroConta img {
     cursor: pointer;
+}
+
+#email {
+    height: 45px;
+}
+
+#fullName::placeholder {
+    line-height: normal;
 }
 /* MEDIA Q */
 
