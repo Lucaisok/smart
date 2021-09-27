@@ -3,18 +3,18 @@ const overlay = document.getElementById("overlay");
 // Overlay disappear
 
 const disappear = () => {
-    if (!document.referrer) {
-        setTimeout(() => {
-            overlay.classList.add("stopOverlay");
-        }, 3000);
-        setTimeout(() => {
-            overlay.classList.add("destroy");
-        }, 3100);
-    } else {
-        setTimeout(() => {
-            overlay.classList.add("destroy");
-        }, 10);
-    }
+  if (!document.referrer) {
+    setTimeout(() => {
+      overlay.classList.add("stopOverlay");
+    }, 3000);
+    setTimeout(() => {
+      overlay.classList.add("destroy");
+    }, 3100);
+  } else {
+    setTimeout(() => {
+      overlay.classList.add("destroy");
+    }, 10);
+  }
 };
 
 disappear();
@@ -24,68 +24,63 @@ disappear();
 var position = $(window).scrollTop();
 
 $(window).scroll(function () {
-    console.log("scrollo")
-    var scroll = $(window).scrollTop();
-    if (scroll > position) {
-        console.log("uuuuu");
-        if (window.pageYOffset >= 90) {
-            console.log("go down!");
-            $("header").addClass("headerShadow");
-        }
-        $("header").css({
-            position: "absolute",
-        });
-    } else {
-        console.log("buuuu")
-        if (window.pageYOffset < 50) {
-            $("header").removeClass("headerShadow");
-        }
-        $("header").css({
-            position: "fixed",
-        });
+  var scroll = $(window).scrollTop();
+  if (scroll > position) {
+    if (window.pageYOffset >= 90) {
+      $("header").addClass("headerShadow");
     }
-    position = scroll;
+    $("header").css({
+      position: "absolute",
+    });
+  } else {
+    if (window.pageYOffset < 50) {
+      $("header").removeClass("headerShadow");
+    }
+    $("header").css({
+      position: "fixed",
+    });
+  }
+  position = scroll;
 });
 
 //Gray line system
 
 $("#ord").hover(function () {
-    $("#riga").css({
-        justifyContent: "flex-start",
-    });
+  $("#riga").css({
+    justifyContent: "flex-start",
+  });
 });
 
 $("#manu").hover(function () {
-    $("#riga").css({
-        justifyContent: "center",
-    });
+  $("#riga").css({
+    justifyContent: "center",
+  });
 });
 
 $("#rec").hover(function () {
-    $("#riga").css({
-        justifyContent: "flex-end",
-    });
+  $("#riga").css({
+    justifyContent: "flex-end",
+  });
 });
 
 $("#carroConta").click(function () {
-    window.location.href = "services.html";
+  window.location.href = "services.html";
 });
 
 // Go Up system
 
 $(".circle").click(function () {
-    $("html, body").animate({ scrollTop: 0 }, 1000);
+  $("html, body").animate({ scrollTop: 0 }, 1000);
 });
 
 // Hamburger System
 
 $("#hamburger").click(function () {
-    console.log("clicked!");
-    $("#hamburgerShow").addClass("on");
-    $("#hamburgerShow").removeClass("off");
+  $("#hamburgerShow").addClass("on");
+  $("#hamburgerShow").removeClass("off");
 });
 
 $("#closeX").click(() => {
-    $("#hamburgerShow").addClass("off");
-    $("#hamburgerShow").removeClass("on");
+  $("#hamburgerShow").addClass("off");
+  $("#hamburgerShow").removeClass("on");
 });

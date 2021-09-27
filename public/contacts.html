@@ -1,297 +1,279 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
-            rel="stylesheet"
-        />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
-            rel="stylesheet"
-        />
-        <link rel="stylesheet" href="style.css" />
-        <title>Smart it</title>
-    </head>
-    <body>
-        <header class="header">
-            <div
-                style="display: flex; flex-direction: row; align-items: center"
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Smart it</title>
+  </head>
+  <body>
+    <header class="header">
+      <div style="display: flex; flex-direction: row; align-items: center">
+        <a href="index.html"
+          ><img src="images/smartSoloLogo.jpg" alt="logo"
+        /></a>
+        <a href="index.html"
+          ><img src="images/justText.png" alt="logo" id="justText"
+        /></a>
+      </div>
+      <a href="index.html"
+        ><img src="images/justText.png" alt="logo" id="justTextMobile"
+      /></a>
+      <ul class="navbar desktop">
+        <li class="navLi">
+          <a href="services.html" class="navItems">Servizi</a>
+        </li>
+        <li class="navLi">
+          <a href="price.html" class="navItems">Preventivi</a>
+        </li>
+        <li class="navLi">
+          <a href="about.html" class="navItems">Chi siamo</a>
+        </li>
+        <li class="navLi">
+          <a href="contacts.html" class="navItems">Contatti</a>
+        </li>
+      </ul>
+      <div class="hamburger mobile" id="hamburger">
+        <p class="hambSection"></p>
+        <p class="hambSection"></p>
+        <p class="hambSection"></p>
+      </div>
+    </header>
+    <div class="hamburgerShow mobile" id="hamburgerShow">
+      <p class="closeX" id="closeX">X</p>
+      <ul class="navItemsContainerMobile">
+        <li class="navLi">
+          <a href="services.html" class="navItems">Servizi</a>
+        </li>
+        <li class="navLi">
+          <a href="price.html" class="navItems">Preventivi</a>
+        </li>
+        <li class="navLi">
+          <a href="about.html" class="navItems">Chi siamo</a>
+        </li>
+        <li class="navLi">
+          <a href="contacts.html" class="navItems">Contatti</a>
+        </li>
+      </ul>
+      <div class="logoConta">
+        <img src="images/6.png" alt="" />
+      </div>
+    </div>
+    <div class="serviceContainer">
+      <p class="path">Home > <span class="green">Contatti</span></p>
+      <div class="divider"></div>
+      <p class="ourContact">Contatti</p>
+      <p class="ourParagContacts">
+        Contattaci telefonicamente, via email o tramite il nostro contact form
+        per ricevere un consulto gratuito. I nostri operatori saranno felici di
+        rispondere ad ogni tuo quesito ed aiutarti nella scelta del servizio più
+        adeguato alle tue esigenze.
+      </p>
+      <p class="contactUss">
+        Compila il form e verrai presto contattato da un nostro operatore.
+      </p>
+      <div class="bigContainer">
+        <div class="leftContainer">
+          <p class="every">Every field is required!</p>
+          <form class="form" id="form">
+            <input
+              class="input"
+              type="text"
+              name="fullName"
+              id="fullName"
+              placeholder="Nome"
+              required
+            />
+            <input
+              id="email"
+              class="input"
+              type="text"
+              name="email"
+              placeholder="Email"
+              required
+            />
+            <input
+              id="oggetto"
+              class="input"
+              type="text"
+              name="oggetto"
+              placeholder="Oggetto"
+              required
+            />
+            <textarea
+              placeholder="Messaggio"
+              class="textArea"
+              name="text"
+              id="text"
+              required
+            ></textarea>
+            <div class="checkCont">
+              <input
+                class="check"
+                type="checkbox"
+                name="accetto"
+                id="accetto"
+                required
+              />
+              <label class="label" for="accetto"
+                >Autorizzo al trattamento dei miei dati personali.
+              </label>
+            </div>
+            <div class="buttons">
+              <button class="annulla" id="annulla">Annulla</button>
+              <button id="invia" class="invia">Invia</button>
+            </div>
+          </form>
+        </div>
+        <div class="rightContainer">
+          <div class="mapContainer"></div>
+          <div class="contactsContainer">
+            <div class="contactElement">
+              <div class="circleContainer0"></div>
+              <div class="pContainer">
+                <p>
+                  Via Goffredo Mameli 19, <br />
+                  20129 MILANO, (MI)
+                </p>
+              </div>
+            </div>
+            <div class="contactElement">
+              <div class="circleContainer"></div>
+              <div class="pContainer">
+                <p>+39 0280887029 / +39 3483327741 <br /></p>
+              </div>
+            </div>
+            <div class="contactElement">
+              <div class="circleContainer2"></div>
+              <div class="pContainer">
+                <p>
+                  Info@smartit-srl.com <br />
+                  smartitsrl@legalmail.it
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="thanksContainer" id="thanksContainer">
+          <div class="thanksModal">
+            <p class="grazie">Grazie!</p>
+            <p class="paragraf">
+              La sua e-mail è stata inviata e verrà presto ricontattato da uno
+              dei nostri operatori.
+            </p>
+            <button
+              class="backToService"
+              onclick="window.location.href='services.html';"
             >
-                <a href="index.html"
-                    ><img src="images/smartSoloLogo.jpg" alt="logo"
-                /></a>
-                <a href="index.html"
-                    ><img src="images/justText.png" alt="logo" id="justText"
-                /></a>
-            </div>
-            <a href="index.html"
-                ><img src="images/justText.png" alt="logo" id="justTextMobile"
-            /></a>
-            <ul class="navbar desktop">
-                <li class="navLi">
-                    <a href="services.html" class="navItems">Servizi</a>
-                </li>
-                <li class="navLi">
-                    <a href="price.html" class="navItems">Preventivi</a>
-                </li>
-                <li class="navLi">
-                    <a href="about.html" class="navItems">Chi siamo</a>
-                </li>
-                <li class="navLi">
-                    <a href="contacts.html" class="navItems">Contatti</a>
-                </li>
-            </ul>
-            <div class="hamburger mobile" id="hamburger">
-                <p class="hambSection"></p>
-                <p class="hambSection"></p>
-                <p class="hambSection"></p>
-            </div>
-        </header>
-        <div class="hamburgerShow mobile" id="hamburgerShow">
-            <p class="closeX" id="closeX">X</p>
-            <ul class="navItemsContainerMobile">
-                <li class="navLi">
-                    <a href="services.html" class="navItems">Servizi</a>
-                </li>
-                <li class="navLi">
-                    <a href="price.html" class="navItems">Preventivi</a>
-                </li>
-                <li class="navLi">
-                    <a href="about.html" class="navItems">Chi siamo</a>
-                </li>
-                <li class="navLi">
-                    <a href="contacts.html" class="navItems">Contatti</a>
-                </li>
-            </ul>
-            <div class="logoConta">
-                <img src="images/6.png" alt="" />
-            </div>
+              Torna ai servizi
+            </button>
+            <p class="chiudi" id="chiudi">Chiudi</p>
+          </div>
         </div>
-        <div class="serviceContainer">
-            <p class="path">Home > <span class="green">Contatti</span></p>
-            <div class="divider"></div>
-            <p class="ourContact">Contatti</p>
-            <p class="ourParagContacts">
-                Contattaci telefonicamente, via email o tramite il nostro
-                contact form per ricevere un consulto gratuito. I nostri
-                operatori saranno felici di rispondere ad ogni tuo quesito ed
-                aiutarti nella scelta del servizio più adeguato alle tue
-                esigenze.
-            </p>
-            <p class="contactUss">
-                Compila il form e verrai presto contattato da un nostro
-                operatore.
-            </p>
-            <div class="bigContainer">
-                <div class="leftContainer">
-                    <p class="every">Every field is required!</p>
-                    <form class="form" id="form">
-                        <input
-                            class="input"
-                            type="text"
-                            name="fullName"
-                            id="fullName"
-                            placeholder="Nome"
-                            required
-                        />
-                        <input
-                            id="email"
-                            class="input"
-                            type="text"
-                            name="email"
-                            placeholder="Email"
-                            required
-                        />
-                        <input
-                            id="oggetto"
-                            class="input"
-                            type="text"
-                            name="oggetto"
-                            placeholder="Oggetto"
-                            required
-                        />
-                        <textarea
-                            placeholder="Messaggio"
-                            class="textArea"
-                            name="text"
-                            id="text"
-                            required
-                        ></textarea>
-                        <div class="checkCont">
-                            <input
-                                class="check"
-                                type="checkbox"
-                                name="accetto"
-                                id="accetto"
-                                required
-                            />
-                            <label class="label" for="accetto"
-                                >Autorizzo al trattamento dei miei dati
-                                personali.
-                            </label>
-                        </div>
-                        <div class="buttons">
-                            <button class="annulla" id="annulla">
-                                Annulla
-                            </button>
-                            <button id="invia" class="invia">Invia</button>
-                        </div>
-                    </form>
-                </div>
-                <div class="rightContainer">
-                    <div class="mapContainer"></div>
-                    <div class="contactsContainer">
-                        <div class="contactElement">
-                            <div class="circleContainer0"></div>
-                            <div class="pContainer">
-                                <p>
-                                    Via Goffredo Mameli 19, <br />
-                                    20129 MILANO, (MI)
-                                </p>
-                            </div>
-                        </div>
-                        <div class="contactElement">
-                            <div class="circleContainer"></div>
-                            <div class="pContainer">
-                                <p>
-                                    +39 3460951820 <br />
-                                    +39 02/0202020
-                                </p>
-                            </div>
-                        </div>
-                        <div class="contactElement">
-                            <div class="circleContainer2"></div>
-                            <div class="pContainer">
-                                <p>
-                                    Info@smartit-srl.com <br />
-                                    smartitsrl@legalmail.it
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="thanksContainer" id="thanksContainer">
-                    <div class="thanksModal">
-                        <p class="grazie">Grazie!</p>
-                        <p class="paragraf">
-                            La sua e-mail è stata inviata e verrà presto
-                            ricontattato da uno dei nostri operatori.
-                        </p>
-                        <button
-                            class="backToService"
-                            onclick="window.location.href='services.html';"
-                        >
-                            Torna ai servizi
-                        </button>
-                        <p class="chiudi" id="chiudi">Chiudi</p>
-                    </div>
-                </div>
-                <div class="errorContainer">
-                    <div class="thanksModal">
-                        <p class="grazie">Ops!</p>
-                        <p class="paragraf">
-                            Qualcosa sembra essere andato storto...
-                        </p>
-                        <button
-                            class="backToService"
-                            onclick="window.location.href='contacts.html';"
-                        >
-                            Riprova
-                        </button>
-                        <p class="chiudi" id="chiudiErrore">Chiudi</p>
-                    </div>
-                </div>
-            </div>
-            <div class="goUp">
-                <div class="circle"></div>
-            </div>
+        <div class="errorContainer">
+          <div class="thanksModal">
+            <p class="grazie">Ops!</p>
+            <p class="paragraf">Qualcosa sembra essere andato storto...</p>
+            <button
+              class="backToService"
+              onclick="window.location.href='contacts.html';"
+            >
+              Riprova
+            </button>
+            <p class="chiudi" id="chiudiErrore">Chiudi</p>
+          </div>
         </div>
-        <footer class="desktop">
-            <div class="horizCont">
-                <div class="verticalOne">
-                    <div class="logoCont"></div>
-                    <div class="address">
-                        <div class="addressP">
-                            Cod. Fisc. e P. IVA11323710969
-                        </div>
-                        <div class="addressP">Capitale sociale € 10.000,00</div>
-                        <div class="addressP">REA MI 2594550</div>
-                    </div>
-                    <div class="socialCont">
-                        <div class="social">
-                            <div class="elem"></div>
-                        </div>
-                        <div class="social"><div class="elem2"></div></div>
-                        <div class="social"><div class="elem3"></div></div>
-                    </div>
-                </div>
-                <div class="verticalTwo second">
-                    <p class="tit">Servizi</p>
-                    <div class="data">Pulizie ordinarie e straordinarie</div>
-                    <div class="data">Sanificazioni</div>
-                    <div class="data">Servizio di portierato e reception</div>
-                    <div class="data">
-                        Manutenzione di impianti ed aree verdi
-                    </div>
-                    <div class="data">Ristrutturazioni</div>
-                </div>
-                <div class="verticalTwo">
-                    <p class="tit">Contatti</p>
-                    <div class="data">Sede legale MILANO (MI)</div>
-                    <div class="data">Via Goffredo Mameli 19, 20129</div>
-                    <div class="data">+39 3460951820</div>
-                    <div class="data">Info@smartit-srl.com</div>
-                    <div class="data">smartitsrl@legalmail.it</div>
-                </div>
+      </div>
+      <div class="goUp">
+        <div class="circle"></div>
+      </div>
+    </div>
+    <footer class="desktop">
+      <div class="horizCont">
+        <div class="verticalOne">
+          <div class="logoCont"></div>
+          <div class="address">
+            <div class="addressP">Cod. Fisc. e P. IVA11323710969</div>
+            <div class="addressP">Capitale sociale € 10.000,00</div>
+            <div class="addressP">REA MI 2594550</div>
+          </div>
+          <div class="socialCont">
+            <div class="social">
+              <div class="elem"></div>
             </div>
-            <p class="copy">
-                Copyright © 2005-2021 Marktplaats BV All rights reserved.
-                Designated trademarks belong to their respective owners.
-            </p>
-        </footer>
-        <footer class="mobile">
-            <div class="verticalOne">
-                <div class="logoCont"></div>
-                <div class="address">
-                    <div class="addressP">Cod. Fisc. e P. IVA11323710969</div>
-                    <div class="addressP">Capitale sociale € 10.000,00</div>
-                    <div class="addressP">REA MI 2594550</div>
-                </div>
-                <div class="socialCont">
-                    <div class="social">
-                        <div class="elem"></div>
-                    </div>
-                    <div class="social"><div class="elem2"></div></div>
-                    <div class="social"><div class="elem3"></div></div>
-                </div>
-            </div>
-            <div class="subFootContainer">
-                <div class="verticalTwo second">
-                    <p class="tit">Servizi</p>
-                    <div class="data">Pulizie ordinarie e straordinarie</div>
-                    <div class="data">Sanificazioni</div>
-                    <div class="data">Servizio di portierato e reception</div>
-                    <div class="data">
-                        Manutenzione di impianti ed aree verdi
-                    </div>
-                    <div class="data">Ristrutturazioni</div>
-                </div>
-                <div class="verticalTwo">
-                    <p class="tit">Contatti</p>
-                    <div class="data">Sede legale MILANO (MI)</div>
-                    <div class="data">Via Goffredo Mameli 19, 20129</div>
-                    <div class="data">+39 3460951820</div>
-                    <div class="data">Info@smartit-srl.com</div>
-                    <div class="data">smartitsrl@legalmail.it</div>
-                </div>
-            </div>
-        </footer>
-        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="cont.js"></script>
-    </body>
+            <div class="social"><div class="elem2"></div></div>
+            <div class="social"><div class="elem3"></div></div>
+          </div>
+        </div>
+        <div class="verticalTwo second">
+          <p class="tit">Servizi</p>
+          <div class="data">Pulizie ordinarie e straordinarie</div>
+          <div class="data">Sanificazioni</div>
+          <div class="data">Servizio di portierato e reception</div>
+          <div class="data">Manutenzione di impianti ed aree verdi</div>
+          <div class="data">Ristrutturazioni</div>
+        </div>
+        <div class="verticalTwo">
+          <p class="tit">Contatti</p>
+          <div class="data">Sede legale MILANO (MI)</div>
+          <div class="data">Via Goffredo Mameli 19, 20129</div>
+          <div class="data">+39 0280887029 / +39 3483327741</div>
+          <div class="data">Info@smartit-srl.com</div>
+          <div class="data">smartitsrl@legalmail.it</div>
+        </div>
+      </div>
+      <p class="copy">
+        Copyright © 2005-2021 Marktplaats BV All rights reserved. Designated
+        trademarks belong to their respective owners.
+      </p>
+    </footer>
+    <footer class="mobile">
+      <div class="verticalOne">
+        <div class="logoCont"></div>
+        <div class="address">
+          <div class="addressP">Cod. Fisc. e P. IVA11323710969</div>
+          <div class="addressP">Capitale sociale € 10.000,00</div>
+          <div class="addressP">REA MI 2594550</div>
+        </div>
+        <div class="socialCont">
+          <div class="social">
+            <div class="elem"></div>
+          </div>
+          <div class="social"><div class="elem2"></div></div>
+          <div class="social"><div class="elem3"></div></div>
+        </div>
+      </div>
+      <div class="subFootContainer">
+        <div class="verticalTwo second">
+          <p class="tit">Servizi</p>
+          <div class="data">Pulizie ordinarie e straordinarie</div>
+          <div class="data">Sanificazioni</div>
+          <div class="data">Servizio di portierato e reception</div>
+          <div class="data">Manutenzione di impianti ed aree verdi</div>
+          <div class="data">Ristrutturazioni</div>
+        </div>
+        <div class="verticalTwo">
+          <p class="tit">Contatti</p>
+          <div class="data">Sede legale MILANO (MI)</div>
+          <div class="data">Via Goffredo Mameli 19, 20129</div>
+          <div class="data">+39 0280887029 / +39 3483327741</div>
+          <div class="data">Info@smartit-srl.com</div>
+          <div class="data">smartitsrl@legalmail.it</div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="cont.js"></script>
+  </body>
 </html>
