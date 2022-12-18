@@ -1981,7 +1981,7 @@ footer {
   }
 
   .underHeaderImg {
-    height: 91%;
+    /* height: 91%; */
     top: 9%;
     padding-top: 0;
   }
@@ -2256,6 +2256,12 @@ footer {
 }
 
 @media (max-width: 650px) {
+  .xmasBanner {
+    background-position: center;
+    background-repeat: inherit;
+    background-size: cover;
+  }
+
   .testtt p {
     margin-bottom: 1px;
   }
