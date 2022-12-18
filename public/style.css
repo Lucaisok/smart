@@ -565,7 +565,7 @@ footer {
 }
 
 .path {
-  margin-top: 15vh;
+  margin-top: 6vh;
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
   font-style: normal;
@@ -1981,7 +1981,7 @@ footer {
   }
 
   .underHeaderImg {
-    /* height: 91%; */
+    height: 79%;
     top: 9%;
     padding-top: 0;
   }
@@ -2256,11 +2256,11 @@ footer {
 }
 
 @media (max-width: 650px) {
-  .xmasBanner {
+  /* .xmasBanner {
     background-position: center;
     background-repeat: inherit;
     background-size: cover;
-  }
+  } */
 
   .testtt p {
     margin-bottom: 1px;
@@ -2313,6 +2313,14 @@ footer {
 
   .hamburger {
     margin-left: 0;
+  }
+}
+
+@media (max-width: 525px) {
+  .xmasBanner {
+    background-position: center;
+    background-repeat: inherit;
+    background-size: cover;
   }
 }
 
