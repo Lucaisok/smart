@@ -2318,10 +2318,10 @@ footer {
 
 @media (max-width: 525px) {
   .xmasBanner {
+    background-image: url("images/xmasBannerMobile.jpg");;
     background-position: center;
     background-repeat: inherit;
     background-size: cover;
-    height: 13%;
   }
 }
 
