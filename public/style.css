@@ -1972,6 +1972,14 @@ footer {
 }
 
 @media (max-width: 900px) {
+  .new-opening {
+    margin-bottom: 20px;
+  }
+
+  .centro {
+    margin-top: 20px;
+  }
+
   #carroConta img {
     margin-top: 10%;
   }
@@ -2266,6 +2274,10 @@ footer {
 
 @media (max-width: 650px) {
 
+  .centro {
+    margin-top: 20px;
+  }
+
   .testtt p {
     margin-bottom: 1px;
   }
@@ -2352,6 +2364,9 @@ footer {
 }
 
 @media (max-width: 450px) {
+  .centro {
+    margin-top: 20px;
+  }
   .testtt p {
     margin-bottom: 0;
   }
@@ -2371,6 +2386,9 @@ footer {
 }
 
 @media (max-width: 380px) {
+  .centro {
+    margin-top: 20px;
+  }
   #carroConta img {
     margin-top: 0;
   }
